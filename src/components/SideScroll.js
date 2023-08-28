@@ -15,7 +15,19 @@ function SideScroll() {
       <ul className='media-scroller'>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
+            <img src='https://raw.githubusercontent.com/aut030/GreenDragonInn/main/public/images/dragon.jpg' alt='dragon'/>
+            <p className='title'>Quest</p>
+          </button>
+        </li>
+        <li>
+          <button className='media-element' onClick={openQuestWindow}>
+            <img src='https://github.com/aut030/GreenDragonInn/blob/main/public/images/dragon.jpg' alt='dragon'/>
+            <p className='title'>Quest</p>
+          </button>
+        </li>
+        <li>
+          <button className='media-element' onClick={openQuestWindow}>
+            <img src='https://github.com/aut030/GreenDragonInn/tree/main/public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
@@ -27,61 +39,49 @@ function SideScroll() {
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
+            <img src='https://aut030.github.io/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
+            <img src='https://aut030.github.io/GreenDragonInn/public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
+            <img src='./images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
+            <img src='images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
+            <img src='/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
+            <img src='public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
-            <p className='title'>Quest</p>
-          </button>
-        </li>
-        <li>
-          <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
-            <p className='title'>Quest</p>
-          </button>
-        </li>
-        <li>
-          <button className='media-element' onClick={openQuestWindow}>
-            <img src='https://aut030.github.io/GreenDragonInn/images/dragon.jpg' alt='dragon'/>
+            <img src='./public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
