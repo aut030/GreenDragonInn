@@ -39,7 +39,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" onClick={closeMobileMenu}>
-                    <img className="logo" src='../../public/images/green-dragon.jpg' alt="logo" />
+                    <img className="logo" src='./images/green-dragon.jpg' alt="logo" />
                 </Link>
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                     The Green Dragon Inn
