@@ -7,7 +7,7 @@ import './Button.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <video src='https://aut030.github.io/GreenDragonInn/videos/nz-hills.mp4' autoPlay loop muted />
+        <video src='https://github.com/aut030/GreenDragonInn/blob/main/public/videos/nz-hills.mp4' autoPlay loop muted />
         <h1>ADVENTURE AWAITS!</h1>
         <p>What are you waiting for?</p>
         <div className='hero-btns'>
