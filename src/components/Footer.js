@@ -16,7 +16,7 @@ function Footer() {
                 <div className='input-areas'>
                     <form>
                         <input type="email" name='email' placeholder='Your Email' className='footer-input' />
-                        <Link to='/GreenDragonInn/sign-up'>
+                        <Link to='/sign-up'>
                             <button className='btn'>Sign Up</button>
                         </Link>
                     </form>
@@ -26,16 +26,16 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/GreenDragonInn/about#how-it-works'>How it works</Link>
-                        <Link to='/GreenDragonInn/about#testimonials'>Testimonials</Link>
-                        <Link to='/GreenDragonInn/careers'>Careers</Link>
+                        <Link to='/about#how-it-works'>How it works</Link>
+                        <Link to='/about#testimonials'>Testimonials</Link>
+                        <Link to='/careers'>Careers</Link>
                         <a href='https://www.google.com/maps/place/The+Green+Dragon+Inn/@-37.8597523,175.6810333,21z/data=!4m14!1m7!3m6!1s0x6d6dab7f1d3279b1:0x75bb8d696b08ea29!2sThe+Green+Dragon+Inn!8m2!3d-37.8597471!4d175.6811349!16s%2Fg%2F11b6ql_xw0!3m5!1s0x6d6dab7f1d3279b1:0x75bb8d696b08ea29!8m2!3d-37.8597471!4d175.6811349!16s%2Fg%2F11b6ql_xw0?entry=ttu' target='_blank' rel='noreferrer'>Location</a>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Contact Us</h2>
-                        <Link to='/GreenDragonInn'>Contact</Link>
-                        <Link to='/GreenDragonInn'>Support</Link>
-                        <Link to='/GreenDragonInn'>Sponserships</Link>
+                        <Link to='/'>Contact</Link>
+                        <Link to='/'>Support</Link>
+                        <Link to='/'>Sponserships</Link>
                     </div>
                 </div>
             </div>
