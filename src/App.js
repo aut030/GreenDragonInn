@@ -18,12 +18,12 @@ function App() {
       <ScrollToTop />
       <Navbar />
         <Routes>
-          <Route path='/' exact Component={Home} />
-          <Route path='/about' exact Component={About} />
-          <Route path='/quests' exact Component={Quests} />
-          <Route path='/shop' exact Component={Shop} />
-          <Route path='/sign-up' exact Component={SignUp} />
-          <Route path='/careers' exact Component={Careers} />
+          <Route path='/GreenDragonInn' exact Component={Home} />
+          <Route path='/GreenDragonInn/about' exact Component={About} />
+          <Route path='/GreenDragonInn/quests' exact Component={Quests} />
+          <Route path='/GreenDragonInn/shop' exact Component={Shop} />
+          <Route path='/GreenDragonInn/sign-up' exact Component={SignUp} />
+          <Route path='/GreenDragonInn/careers' exact Component={Careers} />
         </Routes>
       </Router>
     </>
