@@ -28,7 +28,7 @@ function Modal({closeModal}){
                     <button onClick={() => closeModal(false)} id='cancelBtn'>Cancel</button>
                     <button onClick={() => closeModal(false)}>Log In</button>
                 </div>
-                <Link className='sign-up-link' to='/GreenDragonInn/sign-up'>
+                <Link className='sign-up-link' to='/sign-up'>
                    <button className='sign-up-button' onClick={() => closeModal(false)}>Sign-Up</button>
                 </Link>
             </div>

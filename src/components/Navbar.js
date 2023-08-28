@@ -38,10 +38,10 @@ function Navbar() {
     <>
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="/GreenDragonInn" onClick={closeMobileMenu}>
+                <Link to="/" onClick={closeMobileMenu}>
                     <img className="logo" src='https://aut030.github.io/GreenDragonInn/images/green-dragon.jpg' alt="logo" />
                 </Link>
-                <Link to="/GreenDragonInn" className="navbar-logo" onClick={closeMobileMenu}>
+                <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                     The Green Dragon Inn
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
@@ -49,17 +49,17 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/GreenDragonInn/about' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                             About
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/GreenDragonInn/quests' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/quests' className='nav-links' onClick={closeMobileMenu}>
                             Quests
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/GreenDragonInn/shop' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/shop' className='nav-links' onClick={closeMobileMenu}>
                             Shop
                         </Link>
                     </li>

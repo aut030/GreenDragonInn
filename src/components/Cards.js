@@ -13,19 +13,19 @@ function Cards() {
                     src='https://aut030.github.io/GreenDragonInn/images/fellowship-ring.jpg'
                     text='Join a group of Adventurers traveling to a volcano to destroy some jewelry'
                     label='Dangerous'
-                    path='/GreenDragonInn/quests'
+                    path='./quests'
                     />
                     <CardItem 
                     src='https://aut030.github.io/GreenDragonInn/images/trolls.jpg'
                     text='Rescue a Hobbit from a trio of Trolls'
                     //label='Safe'
-                    path='/GreenDragonInn/quests'
+                    path='./quests'
                     />
                     <CardItem 
                     src='https://aut030.github.io/GreenDragonInn/images/smaug.jpg'
                     text='Help a group of Dwarves reclaim their kingdom from a Dragon'
                     label='Dangerous'
-                    path='/GreenDragonInn/quests'
+                    path='./quests'
                     />
                 </ul>
             </div>
@@ -38,13 +38,13 @@ function Cards() {
                     src='https://aut030.github.io/GreenDragonInn/images/flame-tongue.jpg'
                     text='50% off all Flametongue Swords'
                     label='Limited Time'
-                    path='/GreenDragonInn/shop'
+                    path='./shop'
                     />
                     <CardItem 
                     src='https://aut030.github.io/GreenDragonInn/images/elven-arrows.jpg'
                     text='BOGO on all your Elven Arrows'
                     label='Limited Time'
-                    path='/GreenDragonInn/shop'
+                    path='./shop'
                     />
                 </ul>
             </div>
