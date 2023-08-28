@@ -15,73 +15,73 @@ function SideScroll() {
       <ul className='media-scroller'>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>
         <li>
           <button className='media-element' onClick={openQuestWindow}>
-            <img src='./images/dragon.jpg' alt='dragon'/>
+            <img src='../../public/images/dragon.jpg' alt='dragon'/>
             <p className='title'>Quest</p>
           </button>
         </li>

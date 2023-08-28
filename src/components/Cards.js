@@ -10,19 +10,19 @@ function Cards() {
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem 
-                    src='./images/fellowship-ring.jpg'
+                    src='../../public/images/fellowship-ring.jpg'
                     text='Join a group of Adventurers traveling to a volcano to destroy some jewelry'
                     label='Dangerous'
                     path='./quests'
                     />
                     <CardItem 
-                    src='./images/trolls.jpg'
+                    src='../../public/images/trolls.jpg'
                     text='Rescue a Hobbit from a trio of Trolls'
                     //label='Safe'
                     path='./quests'
                     />
                     <CardItem 
-                    src='./images/smaug.jpg'
+                    src='../../public/images/smaug.jpg'
                     text='Help a group of Dwarves reclaim their kingdom from a Dragon'
                     label='Dangerous'
                     path='./quests'
@@ -35,13 +35,13 @@ function Cards() {
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem 
-                    src='./images/flame-tongue.jpg'
+                    src='../../public/images/flame-tongue.jpg'
                     text='50% off all Flametongue Swords'
                     label='Limited Time'
                     path='./shop'
                     />
                     <CardItem 
-                    src='./images/elven-arrows.jpg'
+                    src='../../public/images/elven-arrows.jpg'
                     text='BOGO on all your Elven Arrows'
                     label='Limited Time'
                     path='./shop'
