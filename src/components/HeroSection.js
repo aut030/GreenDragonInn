@@ -11,12 +11,12 @@ function HeroSection() {
         <h1>ADVENTURE AWAITS!</h1>
         <p>What are you waiting for?</p>
         <div className='hero-btns'>
-          <Link to='/quests'>
+          <Link to='/GreenDragonInn/quests'>
             <button className='btn' buttonStyle='btn--outline' buttonSize='btn--large'>
                 JOIN A QUEST!
             </button>
           </Link>
-          <Link to='/shop'>
+          <Link to='/GreenDragonInn/shop'>
             <button className='btn' buttonStyle='btn--primary' buttonSize='btn--large'>
                 SHOP OUR WARES!
             </button>
