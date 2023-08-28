@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/GreenDragonInn/static/css/main.183efa17.css",
-    "main.js": "/GreenDragonInn/static/js/main.ee6d65c7.js",
+    "main.js": "/GreenDragonInn/static/js/main.6fc237d0.js",
     "static/media/armory.jpg": "/GreenDragonInn/static/media/armory.f1e7def0144d10f31ec6.jpg",
     "static/media/adventure-mountain.jpg": "/GreenDragonInn/static/media/adventure-mountain.adbb1db9421b1d06832b.jpg",
     "static/media/img-home.jpg": "/GreenDragonInn/static/media/img-home.c034239ee9a63564602b.jpg",
     "index.html": "/GreenDragonInn/index.html",
     "main.183efa17.css.map": "/GreenDragonInn/static/css/main.183efa17.css.map",
-    "main.ee6d65c7.js.map": "/GreenDragonInn/static/js/main.ee6d65c7.js.map"
+    "main.6fc237d0.js.map": "/GreenDragonInn/static/js/main.6fc237d0.js.map"
   },
   "entrypoints": [
     "static/css/main.183efa17.css",
-    "static/js/main.ee6d65c7.js"
+    "static/js/main.6fc237d0.js"
   ]
 }
