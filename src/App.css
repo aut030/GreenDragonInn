@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+  
+.home,
+.about,
+.quests,
+.shop,
+.sign-up,
+.careers {
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+    
+.quests {
+  background-image: url('../public/images/adventure-mountain.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.quest-title {
+  color: #fff;
+  font-size: 100px;
+}
+  
+.shop {
+  position: sticky;
+  background-image: url('../public/images/armory.jpg');
+  background-position: center;
+  background-size: 10;
+  max-height: 200px;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 50px;
+}
+
+.shop-title-box {
+  margin-left: 135px;
+  width: 325px;
+  background-size: 10;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.sign-up {
+  background-image: url('../public/images/img-home.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #119300cc;
+  font-size: 100px;
+}
+
+.box-text {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+
+.input {
+  font-size: 36px;
+  text-align: center;
+}
+
+.careers {
+  background-image: url('../public/images/img-home.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #119300cc;
+  font-size: 100px;
+}

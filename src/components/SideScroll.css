@@ -1,0 +1,139 @@
+.media-scroller{
+  position: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: antiquewhite;
+  --_spacer: 5px;
+  display: grid;
+  margin-top: 75px;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+  padding: 0 var(--_spacer) var(--_spacer);
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.media-element {
+  display: grid;
+  grid-template-rows: min-content;
+  font-size: 32px;
+  cursor: pointer;
+  border: none;
+  gap: var(--_spacer);
+  padding: var(--_spacer);
+  background: var(--_spacer);
+  border-radius: var(--_spacer);
+  box-shadow: var(--shadow-2);
+}
+
+.media-element > img {
+  inline-size: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.title {
+  text-align: center;
+}
+
+@media screen and (max-width: 820px) {
+  .title {
+    font-size: 24px;
+  }
+}
+
+.job-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  margin-top: -200px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-container {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.job-container .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.title-close-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title-close-button button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.job-container .body {
+  flex: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.job-container .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-container .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: rgba(0, 136, 0, 0.649);
+  color: #fff;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.job-container .input {
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #000000;
+}
+
+.job-container .sign-up-link {
+  align-self: center;
+}
+
+.job-container .sign-up-button {
+  align-self: center;
+  width: fit-content;
+  height: fit-content;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#cancel-button {
+  background-color: #f00;
+}
